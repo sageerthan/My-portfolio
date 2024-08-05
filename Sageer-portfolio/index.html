@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxicon css link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <a href="#" class="logo"><span>Sageer</span>than</a>
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="right-header">
+        <a href="#" class="btn"
+          >Let's chat <i class="bx bx-message-dots"></i
+        ></a>
+        <div class="menu-icon">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="person-info">
+        <h3>Welcome To My Profile</h3>
+        <h1>Hi I'm Sageerthan</h1>
+
+        <div class="text-animate">
+          <h2>Fullstack Developer</h2>
+        </div>
+
+        <p>
+          I am a Software Engineering undergraduate who is passionate about new
+          opportunities.
+        </p>
+
+        <div class="btn-box">
+          <a href="mailto:sageerthan@mail.com" class="btn"
+            >Hire Me Now ! <i class="bx bx-right-arrow-alt"></i
+          ></a>
+          <a href="img/resume.pdf" target="_blank" class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+        </div>
+
+        <div class="social-media">
+          <div class="bg-icon" style="--i: 9">
+            <a
+              href="https://www.linkedin.com/in/sathiaparan-sageerthan-9b4700242"
+              style="--i: 6"
+              ><i class="bx bxl-linkedin-square"></i></a
+            ><span></span>
+          </div>
+          <div class="bg-icon" style="--i: 10">
+            <a href="https://github.com/sageerthan" style="--i: 7"
+              ><i class="bx bxl-github"></i></a
+            ><span></span>
+          </div>
+        </div>
+      </div>
+      <div class="img-person">
+        <img src="img/person.jpeg" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/person.jpeg" alt="" class="aboutperson" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <h3>Software Engineering undergraduate</h3>
+        <p>
+          I am a Software Engineering undergraduate who is passionate about new
+          opportunities and the adventures they bring.I have always been an
+          autodidact when it comes to technology.It helps me enhance my
+          knowledge in a much better way.I'm well organized and
+          detail-oriented.My vision is to become a knowledgeable Software
+          Engineer in future.
+        </p>
+        <div class="about-btn">
+          <button class="active">Main Skills</button>
+          <button>Education</button>
+        </div>
+        <div class="content-btn">
+          <div class="content">
+            <div class="text-box">
+              <p>Technical Skills</p>
+              <span>
+                HTML, CSS, JS, ReactJS, NodeJS, ExpressJS, MongoDB, C, Java
+              </span>
+            </div>
+            <div class="text-box">
+              <p>Soft Skills</p>
+              <span
+                >Creativity,Communication,Decision Making,Time management</span
+              >
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <span>Reading Bachelor's Degree in Software Engineering</span>
+              <p>Current GPA 3.59/4.0</p>
+            </div>
+            <div class="text-box">
+              <span>A2B in GCE A/L</span>
+              <p>Z-score:1.6326</p>
+            </div>
+            <div class="text-box">
+              <span>9A in GCE O/L</span>
+            </div>
+          </div>
+        </div>
+        <div class="cvContent">
+          <a href="img/resume.pdf" target="_blank" class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div class="main-text">
+        <h2 class="heading">Project</h2>
+        <span>Latest News & Post</span>
+      </div>
+
+      <div class="project-box swiper mySwiper">
+        <div class="cards swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/4.PNG" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Glancemart-Ecommerce-Phoneshop</h2>
+              <span class="date"> Aug 17, 2024</span>
+              <p class="excerpt">
+                In this application users can view products add products to cart,placeorder and make payment using stripe payment gateway.User can view own order details,send their reviews for purchase products,can edit their own profile.If they forgot password,they can reset password through the reset token send to their mail.For that here I use Mailtrap. 
+                Admin Functionalities of this web application are add products,edit products,view users and can edit their roles,view user orders and can edit order status,view user reviews, can view total income,delete products,delete users,orders,reviews.
+              </p>
+              <a
+                href="https://github.com/sageerthan/Glancemart-Ecommerce-Phoneshop"
+                class="readMore"
+                >Explore More</a
+              >
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/1.PNG" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Admin Dashboard</h2>
+              <span class="date"> Dec 12, 2023</span>
+              <p class="excerpt">
+                This is Ecommerce Admin panel website using PHP,HTML,CSS and
+                JS.In here admin can do view products,edit products,delete
+                products, view categories,edit categories,delete categories,view
+                customers message,delete customers message, view customers,
+                update profile
+              </p>
+              <a
+                href="https://github.com/sageerthan/Admin-Panel"
+                class="readMore"
+                >Explore More</a
+              >
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/2.PNG" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Shopping-cart</h2>
+              <span class="date"> Oct 22, 2023</span>
+              <p class="excerpt">
+                Ecommerce Shopping cart system using HTML,CSS,JS,PHP,MySQL
+              </p>
+              <a
+                href="https://github.com/sageerthan/shopping-cart"
+                class="readMore"
+                >Explore More</a
+              >
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/3.PNG" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Rock-Paper-Scissor Game</h2>
+              <span class="date">Sep 14, 2023</span>
+              <p class="excerpt">
+                This game was developed by using html,css and JS
+              </p>
+              <a
+                href="https://github.com/sageerthan/Rock-Paper-Scissor-Game"
+                class="readMore"
+                >Explore More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <section class="down-box" id="contact">
+      <div class="contactSkills">
+        <div class="contact-info">
+          <div class="main-text">
+            <h2 class="heading">Contact Me</h2>
+            <span>get in touch with me</span>
+          </div>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea name="#" id="" cols="30" rows="10"> </textarea>
+            <div class="formBtn">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="skills">
+          <div class="container">
+            <div class="skillBox">
+              <div class="main-text">
+                <h2 class="heading">My Skills</h2>
+                <span>Let Me Help you</span>
+              </div>
+              <div class="skill-wrap">
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="85">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">HTML</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="80">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">CSS</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="85">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">JavaScript</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="80">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">React</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="75">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Express</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="75">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">MongoDB</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright © 2023 by <span>Sageerthan</span> || All Right Reservd.</p>
+    </footer>
+
+    <div id="progress">
+      <span id="progress-value">
+        <i class="bx bxs-chevrons-up"></i>
+      </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
